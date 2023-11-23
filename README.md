@@ -1,2 +1,2 @@
-# best is best
+# best or best
 
