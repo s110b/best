@@ -10,7 +10,7 @@ if [ ! -d "$IMAGE_DIR" ]; then
 fi
 
 # 压缩图片
-for file in "$IMAGE_DIR"/*.{jpg,jpeg,png}; do
+for file in "$IMAGE_DIR"/*.{jpg,jpeg,png,webp}; do
     if [[ -f $file ]]; then
         # 使用 squoosh-cli 压缩图片
         squoosh-cli --webp auto "$file" -d "$IMAGE_DIR/after"
