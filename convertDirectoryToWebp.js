@@ -9,11 +9,28 @@ function convertHeicToPng(inputFile, outputDir) {
     return outputFile;
 }
 
+
 function compressToWebp(inputFile, outputDir) {
+    // 生成最终的 WebP 文件名
     const outputFileName = path.basename(inputFile, path.extname(inputFile)) + '.webp';
     const outputFile = path.join(outputDir, outputFileName);
-    execSync(`cwebp -q 75 "${inputFile}" -o "${outputFile}"`);
+
+    // 创建一个临时文件路径，用于存储调整大小后的图片
+    const tempOutputFile = path.join(outputDir, 'temp_' + path.basename(inputFile));
+
+    // 首先，使用 convert 命令调整图片到 1080p 分辨率
+    execSync(`convert "${inputFile}" -resize 1920x1080 "${tempOutputFile}"`);
+
+    // 然后，将调整后的图片转换为 WebP 格式
+    execSync(`cwebp -q 75 "${tempOutputFile}" -o "${outputFile}"`);
+
+    // 可选：删除临时文件
+    fs.unlinkSync(tempOutputFile);
 }
+
+// 使用示例
+// compressToWebp('path/to/your/input/file.jpg', 'path/to/output/directory');
+
 
 function copyFileToBackup(inputFile, backupDir) {
     const backupFile = path.join(backupDir, path.basename(inputFile));
