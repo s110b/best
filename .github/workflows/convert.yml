@@ -1,0 +1,29 @@
+name: Image Processing Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  process-images:
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run Docker Container
+        run: |
+          docker run -v ${{ github.workspace }}/images:/app/input \
+                     -v ${{ github.workspace }}/convertDirectoryToWebp.js:/app/convertDirectoryToWebp.js \
+                     xiquwugou/image-processor:v1.0.0 /bin/bash -c "node /app/convertDirectoryToWebp.js"
+
+      - name: Auto Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Add processed images and backup
+          branch: ${{ github.ref }}
+          file_pattern: images/
