@@ -1,7 +1,9 @@
-name: Build and Deploy Jekyll Site
+name: upload pages
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -16,13 +18,6 @@ jobs:
 
       - name: Pull Docker Image
         run: docker pull xiquwugou/my-jekyll-image-site:latest
-
-      - name: Process Images
-        run: docker run -v ${{ github.workspace }}/images:/images xiquwugou/my-jekyll-image-site:latest /process-images.sh
-
-      - name: Move WebP Images
-        run: |
-          sudo find ${{ github.workspace }}/images -type f -name '*.webp' -exec mv {} ${{ github.workspace }}/app/photos/original \;
 
       - name: Set Repo Name
         id: repo-name
