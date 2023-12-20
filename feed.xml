@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://github.com/waschinski/photo-stream">Photo Stream</generator>
+    <link href="https://maxvoltar.photo/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://maxvoltar.photo" rel="alternate" type="text/html"/>
+    <updated>2023-12-20T02:34:21+00:00</updated>
+    <id>2023-12-20T02:34:21+00:00</id>
+    <title type="html"><![CDATA[maxvoltar.photo]]></title>
+    <subtitle><![CDATA[@maxvoltar's minimalistic, self-hosted photo stream.]]></subtitle>
+    <author>
+      <name><![CDATA[Tim Van Damme]]></name>
+      <email>tim@maxvoltar.be</email>
+      <uri>https://maxvoltar.com</uri>
+    </author>
+    <entry>
+      <title type="html">IMG_8633</title>
+      <link href="https://maxvoltar.photo/img-8633/" rel="alternate" type="text/html" title="IMG_8633" />
+      <published></published>
+      <updated></updated>
+      <id>https://maxvoltar.photo/img-8633/</id>
+      <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8633/"><img src="https://maxvoltar.photo/photos/large/IMG_8633-686656.webp" alt="IMG_8633" /></a></figure>
+      ]]>
+    </content>
+    <author>
+      <name><![CDATA[Tim Van Damme]]></name>
+      <email>tim@maxvoltar.be</email>
+      <uri>https://maxvoltar.com</uri>
+    </author>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8633-686656.webp" />
+      <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8633-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+      </entry>
+      <entry>
+        <title type="html">IMG_8632</title>
+        <link href="https://maxvoltar.photo/img-8632/" rel="alternate" type="text/html" title="IMG_8632" />
+        <published></published>
+        <updated></updated>
+        <id>https://maxvoltar.photo/img-8632/</id>
+        <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8632/"><img src="https://maxvoltar.photo/photos/large/IMG_8632-686656.webp" alt="IMG_8632" /></a></figure>
+        ]]>
+      </content>
+      <author>
+        <name><![CDATA[Tim Van Damme]]></name>
+        <email>tim@maxvoltar.be</email>
+        <uri>https://maxvoltar.com</uri>
+      </author>
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8632-686656.webp" />
+        <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8632-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+        </entry>
+        <entry>
+          <title type="html">IMG_8631</title>
+          <link href="https://maxvoltar.photo/img-8631/" rel="alternate" type="text/html" title="IMG_8631" />
+          <published></published>
+          <updated></updated>
+          <id>https://maxvoltar.photo/img-8631/</id>
+          <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8631/"><img src="https://maxvoltar.photo/photos/large/IMG_8631-686656.webp" alt="IMG_8631" /></a></figure>
+          ]]>
+        </content>
+        <author>
+          <name><![CDATA[Tim Van Damme]]></name>
+          <email>tim@maxvoltar.be</email>
+          <uri>https://maxvoltar.com</uri>
+        </author>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8631-686656.webp" />
+          <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8631-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+          </entry>
+          <entry>
+            <title type="html">IMG_6728</title>
+            <link href="https://maxvoltar.photo/img-6728/" rel="alternate" type="text/html" title="IMG_6728" />
+            <published></published>
+            <updated></updated>
+            <id>https://maxvoltar.photo/img-6728/</id>
+            <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-6728/"><img src="https://maxvoltar.photo/photos/large/IMG_6728-686656.webp" alt="IMG_6728" /></a></figure>
+            ]]>
+          </content>
+          <author>
+            <name><![CDATA[Tim Van Damme]]></name>
+            <email>tim@maxvoltar.be</email>
+            <uri>https://maxvoltar.com</uri>
+          </author>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_6728-686656.webp" />
+            <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_6728-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+            </entry>
+            <entry>
+              <title type="html">Image00421</title>
+              <link href="https://maxvoltar.photo/image00421/" rel="alternate" type="text/html" title="Image00421" />
+              <published></published>
+              <updated></updated>
+              <id>https://maxvoltar.photo/image00421/</id>
+              <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/image00421/"><img src="https://maxvoltar.photo/photos/large/Image00421-686656.webp" alt="Image00421" /></a></figure>
+              ]]>
+            </content>
+            <author>
+              <name><![CDATA[Tim Van Damme]]></name>
+              <email>tim@maxvoltar.be</email>
+              <uri>https://maxvoltar.com</uri>
+            </author>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/Image00421-686656.webp" />
+              <media:content medium="image" url="https://maxvoltar.photo/photos/large/Image00421-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+              </entry>
+              <entry>
+                <title type="html">IMG_9554</title>
+                <link href="https://maxvoltar.photo/img-9554/" rel="alternate" type="text/html" title="IMG_9554" />
+                <published></published>
+                <updated></updated>
+                <id>https://maxvoltar.photo/img-9554/</id>
+                <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-9554/"><img src="https://maxvoltar.photo/photos/large/IMG_9554-686656.webp" alt="IMG_9554" /></a></figure>
+                ]]>
+              </content>
+              <author>
+                <name><![CDATA[Tim Van Damme]]></name>
+                <email>tim@maxvoltar.be</email>
+                <uri>https://maxvoltar.com</uri>
+              </author>
+              <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_9554-686656.webp" />
+                <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_9554-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                </entry>
+                <entry>
+                  <title type="html">IMG_9298</title>
+                  <link href="https://maxvoltar.photo/img-9298/" rel="alternate" type="text/html" title="IMG_9298" />
+                  <published></published>
+                  <updated></updated>
+                  <id>https://maxvoltar.photo/img-9298/</id>
+                  <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-9298/"><img src="https://maxvoltar.photo/photos/large/IMG_9298-686656.webp" alt="IMG_9298" /></a></figure>
+                  ]]>
+                </content>
+                <author>
+                  <name><![CDATA[Tim Van Damme]]></name>
+                  <email>tim@maxvoltar.be</email>
+                  <uri>https://maxvoltar.com</uri>
+                </author>
+                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_9298-686656.webp" />
+                  <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_9298-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                  </entry>
+                  <entry>
+                    <title type="html">IMG_9148</title>
+                    <link href="https://maxvoltar.photo/img-9148/" rel="alternate" type="text/html" title="IMG_9148" />
+                    <published></published>
+                    <updated></updated>
+                    <id>https://maxvoltar.photo/img-9148/</id>
+                    <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-9148/"><img src="https://maxvoltar.photo/photos/large/IMG_9148-686656.webp" alt="IMG_9148" /></a></figure>
+                    ]]>
+                  </content>
+                  <author>
+                    <name><![CDATA[Tim Van Damme]]></name>
+                    <email>tim@maxvoltar.be</email>
+                    <uri>https://maxvoltar.com</uri>
+                  </author>
+                  <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_9148-686656.webp" />
+                    <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_9148-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                    </entry>
+                    <entry>
+                      <title type="html">IMG_8956</title>
+                      <link href="https://maxvoltar.photo/img-8956/" rel="alternate" type="text/html" title="IMG_8956" />
+                      <published></published>
+                      <updated></updated>
+                      <id>https://maxvoltar.photo/img-8956/</id>
+                      <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8956/"><img src="https://maxvoltar.photo/photos/large/IMG_8956-686656.webp" alt="IMG_8956" /></a></figure>
+                      ]]>
+                    </content>
+                    <author>
+                      <name><![CDATA[Tim Van Damme]]></name>
+                      <email>tim@maxvoltar.be</email>
+                      <uri>https://maxvoltar.com</uri>
+                    </author>
+                    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8956-686656.webp" />
+                      <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8956-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                      </entry>
+                      <entry>
+                        <title type="html">IMG_8949</title>
+                        <link href="https://maxvoltar.photo/img-8949/" rel="alternate" type="text/html" title="IMG_8949" />
+                        <published></published>
+                        <updated></updated>
+                        <id>https://maxvoltar.photo/img-8949/</id>
+                        <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8949/"><img src="https://maxvoltar.photo/photos/large/IMG_8949-686656.webp" alt="IMG_8949" /></a></figure>
+                        ]]>
+                      </content>
+                      <author>
+                        <name><![CDATA[Tim Van Damme]]></name>
+                        <email>tim@maxvoltar.be</email>
+                        <uri>https://maxvoltar.com</uri>
+                      </author>
+                      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8949-686656.webp" />
+                        <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8949-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                        </entry>
+                        <entry>
+                          <title type="html">IMG_8925</title>
+                          <link href="https://maxvoltar.photo/img-8925/" rel="alternate" type="text/html" title="IMG_8925" />
+                          <published></published>
+                          <updated></updated>
+                          <id>https://maxvoltar.photo/img-8925/</id>
+                          <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8925/"><img src="https://maxvoltar.photo/photos/large/IMG_8925-686656.webp" alt="IMG_8925" /></a></figure>
+                          ]]>
+                        </content>
+                        <author>
+                          <name><![CDATA[Tim Van Damme]]></name>
+                          <email>tim@maxvoltar.be</email>
+                          <uri>https://maxvoltar.com</uri>
+                        </author>
+                        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8925-686656.webp" />
+                          <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8925-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                          </entry>
+                          <entry>
+                            <title type="html">IMG_8639</title>
+                            <link href="https://maxvoltar.photo/img-8639/" rel="alternate" type="text/html" title="IMG_8639" />
+                            <published></published>
+                            <updated></updated>
+                            <id>https://maxvoltar.photo/img-8639/</id>
+                            <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8639/"><img src="https://maxvoltar.photo/photos/large/IMG_8639-686656.webp" alt="IMG_8639" /></a></figure>
+                            ]]>
+                          </content>
+                          <author>
+                            <name><![CDATA[Tim Van Damme]]></name>
+                            <email>tim@maxvoltar.be</email>
+                            <uri>https://maxvoltar.com</uri>
+                          </author>
+                          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8639-686656.webp" />
+                            <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8639-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                            </entry>
+                            <entry>
+                              <title type="html">IMG_8638</title>
+                              <link href="https://maxvoltar.photo/img-8638/" rel="alternate" type="text/html" title="IMG_8638" />
+                              <published></published>
+                              <updated></updated>
+                              <id>https://maxvoltar.photo/img-8638/</id>
+                              <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8638/"><img src="https://maxvoltar.photo/photos/large/IMG_8638-686656.webp" alt="IMG_8638" /></a></figure>
+                              ]]>
+                            </content>
+                            <author>
+                              <name><![CDATA[Tim Van Damme]]></name>
+                              <email>tim@maxvoltar.be</email>
+                              <uri>https://maxvoltar.com</uri>
+                            </author>
+                            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8638-686656.webp" />
+                              <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8638-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                              </entry>
+                              <entry>
+                                <title type="html">IMG_8637</title>
+                                <link href="https://maxvoltar.photo/img-8637/" rel="alternate" type="text/html" title="IMG_8637" />
+                                <published></published>
+                                <updated></updated>
+                                <id>https://maxvoltar.photo/img-8637/</id>
+                                <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8637/"><img src="https://maxvoltar.photo/photos/large/IMG_8637-686656.webp" alt="IMG_8637" /></a></figure>
+                                ]]>
+                              </content>
+                              <author>
+                                <name><![CDATA[Tim Van Damme]]></name>
+                                <email>tim@maxvoltar.be</email>
+                                <uri>https://maxvoltar.com</uri>
+                              </author>
+                              <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8637-686656.webp" />
+                                <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8637-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                                </entry>
+                                <entry>
+                                  <title type="html">IMG_8636</title>
+                                  <link href="https://maxvoltar.photo/img-8636/" rel="alternate" type="text/html" title="IMG_8636" />
+                                  <published></published>
+                                  <updated></updated>
+                                  <id>https://maxvoltar.photo/img-8636/</id>
+                                  <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8636/"><img src="https://maxvoltar.photo/photos/large/IMG_8636-686656.webp" alt="IMG_8636" /></a></figure>
+                                  ]]>
+                                </content>
+                                <author>
+                                  <name><![CDATA[Tim Van Damme]]></name>
+                                  <email>tim@maxvoltar.be</email>
+                                  <uri>https://maxvoltar.com</uri>
+                                </author>
+                                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8636-686656.webp" />
+                                  <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8636-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                                  </entry>
+                                  <entry>
+                                    <title type="html">IMG_8635</title>
+                                    <link href="https://maxvoltar.photo/img-8635/" rel="alternate" type="text/html" title="IMG_8635" />
+                                    <published></published>
+                                    <updated></updated>
+                                    <id>https://maxvoltar.photo/img-8635/</id>
+                                    <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8635/"><img src="https://maxvoltar.photo/photos/large/IMG_8635-686656.webp" alt="IMG_8635" /></a></figure>
+                                    ]]>
+                                  </content>
+                                  <author>
+                                    <name><![CDATA[Tim Van Damme]]></name>
+                                    <email>tim@maxvoltar.be</email>
+                                    <uri>https://maxvoltar.com</uri>
+                                  </author>
+                                  <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8635-686656.webp" />
+                                    <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8635-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                                    </entry>
+                                    <entry>
+                                      <title type="html">IMG_8634</title>
+                                      <link href="https://maxvoltar.photo/img-8634/" rel="alternate" type="text/html" title="IMG_8634" />
+                                      <published></published>
+                                      <updated></updated>
+                                      <id>https://maxvoltar.photo/img-8634/</id>
+                                      <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8634/"><img src="https://maxvoltar.photo/photos/large/IMG_8634-686656.webp" alt="IMG_8634" /></a></figure>
+                                      ]]>
+                                    </content>
+                                    <author>
+                                      <name><![CDATA[Tim Van Damme]]></name>
+                                      <email>tim@maxvoltar.be</email>
+                                      <uri>https://maxvoltar.com</uri>
+                                    </author>
+                                    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8634-686656.webp" />
+                                      <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8634-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                                      </entry>
+                                      <entry>
+                                        <title type="html">IMG_8630</title>
+                                        <link href="https://maxvoltar.photo/img-8630/" rel="alternate" type="text/html" title="IMG_8630" />
+                                        <published></published>
+                                        <updated></updated>
+                                        <id>https://maxvoltar.photo/img-8630/</id>
+                                        <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8630/"><img src="https://maxvoltar.photo/photos/large/IMG_8630-686656.webp" alt="IMG_8630" /></a></figure>
+                                        ]]>
+                                      </content>
+                                      <author>
+                                        <name><![CDATA[Tim Van Damme]]></name>
+                                        <email>tim@maxvoltar.be</email>
+                                        <uri>https://maxvoltar.com</uri>
+                                      </author>
+                                      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8630-686656.webp" />
+                                        <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8630-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                                        </entry>
+                                        <entry>
+                                          <title type="html">IMG_8629</title>
+                                          <link href="https://maxvoltar.photo/img-8629/" rel="alternate" type="text/html" title="IMG_8629" />
+                                          <published></published>
+                                          <updated></updated>
+                                          <id>https://maxvoltar.photo/img-8629/</id>
+                                          <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8629/"><img src="https://maxvoltar.photo/photos/large/IMG_8629-686656.webp" alt="IMG_8629" /></a></figure>
+                                          ]]>
+                                        </content>
+                                        <author>
+                                          <name><![CDATA[Tim Van Damme]]></name>
+                                          <email>tim@maxvoltar.be</email>
+                                          <uri>https://maxvoltar.com</uri>
+                                        </author>
+                                        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8629-686656.webp" />
+                                          <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8629-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                                          </entry>
+                                          <entry>
+                                            <title type="html">IMG_8627</title>
+                                            <link href="https://maxvoltar.photo/img-8627/" rel="alternate" type="text/html" title="IMG_8627" />
+                                            <published></published>
+                                            <updated></updated>
+                                            <id>https://maxvoltar.photo/img-8627/</id>
+                                            <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8627/"><img src="https://maxvoltar.photo/photos/large/IMG_8627-686656.webp" alt="IMG_8627" /></a></figure>
+                                            ]]>
+                                          </content>
+                                          <author>
+                                            <name><![CDATA[Tim Van Damme]]></name>
+                                            <email>tim@maxvoltar.be</email>
+                                            <uri>https://maxvoltar.com</uri>
+                                          </author>
+                                          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8627-686656.webp" />
+                                            <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8627-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+                                            </entry>
+                                          </feed>
