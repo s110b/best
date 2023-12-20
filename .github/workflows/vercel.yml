@@ -1,0 +1,64 @@
+name: vercel
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Pull Docker Image
+        run: docker pull xiquwugou/my-jekyll-image-site:latest
+
+      - name: Process Images
+        run: docker run -v ${{ github.workspace }}/images:/images xiquwugou/my-jekyll-image-site:latest /process-images.sh
+
+      - name: Move WebP Images
+        run: |
+          sudo find ${{ github.workspace }}/images -type f -name '*.webp' -exec mv {} ${{ github.workspace }}/app/photos/original \;
+
+      - name: Set Repo Name
+        id: repo-name
+        run: echo "REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)" >> $GITHUB_ENV
+
+      - name: Build Jekyll Site
+        run: docker run -v ${{ github.workspace }}/app:/app -e REPO_NAME='' xiquwugou/my-jekyll-image-site:latest /bin/bash -l -c "/build-site.sh"
+
+      - name: Upload Static Site
+        uses: actions/upload-artifact@v2
+        with:
+          name: static-site
+          path: app/_site
+
+  deploy-static-html:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Download Static Site
+        uses: actions/download-artifact@v2
+        with:
+          name: static-site
+          path: downloaded-site
+
+      - name: Print File Tree
+        run: tree  downloaded-site
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: vercel
+          folder: downloaded-site
+          clean: true
+          single-commit: true
+          force: true
+          ssh-key: ${{ secrets.MY_SSH_PRIVATE_KEY }}
